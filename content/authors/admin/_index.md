@@ -33,8 +33,8 @@ profiles:
     url: https://github.com/haolanzheng
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/haolan-zheng-umassd/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
 
 interests:
   - Scientific Machine Learning
