@@ -51,4 +51,4 @@ education:
 
 ## About Me
 
-I am currently a Ph.D. student at Department of Mathematics, UMass Dartmouth. I received my B.S. degree in Physics at University of Science and Technology of China (USTC) in 2022. My undergraduate research was centered on gravitational physics. In 2023, I shifted my focus to applied mathematics, particularly the intersection of scientific computing and machine learning.
+I am currently a Ph.D. student at Department of Mathematics, UMass Dartmouth. My advisor is Prof. Yanlai Chen. I received my B.S. degree in Physics at University of Science and Technology of China (USTC) in 2022. My undergraduate research was centered on gravitational physics. In 2023, I shifted my focus to applied mathematics, particularly the intersection of scientific computing and machine learning.
