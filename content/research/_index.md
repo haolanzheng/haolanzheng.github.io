@@ -21,6 +21,24 @@ sections: &sections
         padding: ['20px', '0', '20px', '0']
 
   - block: collection
+    id: projects
+    content:
+      title: Recent Projects
+      text: ""
+      page_type: project
+      count: 5
+      filters:
+        folders:
+          - project
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        exclude_drafts: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
     id: publications
     content:
       title: Recent Publications
@@ -30,7 +48,7 @@ sections: &sections
       filters:
         folders:
           - publication
-        featured_only: true
+        featured_only: false
         exclude_featured: false
         exclude_future: false
         exclude_past: false
