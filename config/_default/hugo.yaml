@@ -54,3 +54,11 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+cascade:
+  - target:              # use "_target" on older configs; "target" is current Hugo
+      path: "/project/**"
+    share: false
+  - target:
+      path: "/publication/**"
+    share: false
