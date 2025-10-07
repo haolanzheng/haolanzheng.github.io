@@ -28,15 +28,17 @@ sections: &sections
       title: Current Projects
       subtitle: ''
       text: ''
-      # Page type to display. E.g. project.
       page_type: project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` in `params.yaml`)
+      filters:
+        folders:
+          - project
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
       
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
       view: showcase
-      # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
   - block: collection
