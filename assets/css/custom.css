@@ -20,3 +20,15 @@
 .page-publication .share {
   display: none !important;
 }
+
+/*
+  Hide automatic project and publication sections that appear between Research Interests and Recent Projects
+*/
+.research-page .wg-collection:not(#projects):not(.research-interests),
+.page-landing .wg-collection:not(#projects):not(.research-interests),
+.landing .wg-collection:not(#projects):not(.research-interests),
+.wg-pages:not(#projects),
+.wg-portfolio:not(#projects),
+.page-body > section:not(#projects):not(.research-interests) .wg-collection {
+  display: none !important;
+}
