@@ -38,7 +38,7 @@ profiles:
 
 interests:
   - Scientific Machine Learning
-  - Scientific Computing
+  - Deep Learning
   - Numerical Analysis
 
 education:

@@ -48,22 +48,13 @@ links:
 url_pdf: 'uploads/rebano-paper.pdf'
 url_dataset: ''
 url_poster: ''
-url_project: '/research/rebano/'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  filename: 'rebano_schematics.png'
-  caption: 'ReBaNO Architecture'
-  focal_point: "Smart"
-  preview_only: false
-
 # Associated Projects (optional).
-projects:
-- rebano
+
 
 # Slides (optional).
 slides: ""

@@ -24,10 +24,12 @@ We propose a novel data-lean operator learning algorithm, the Reduced Basis Neur
 
 ## Key Features
 
-- **Data-lean approach**: Requires significantly fewer training samples
-- **Discretization invariance**: Maintains performance across different mesh resolutions
-- **Physics embedding**: Incorporates physical laws directly into the architecture
-- **Adaptive structure**: Uses greedy algorithms for optimal network construction
+- **Data-lean approach**: Requires no high-fidelity solutions
+- **Nonlinear encoder-linear decoder design**: The input is encoded via a nonlinear physics-driven optimization problem and decoded by combining with reduced basis functions
+- **Discretization invariance**: Maintain strict discretization invariance across different grids
+- **Offline-online decomposition**: The reduced basis functions are selected offline via a greedy algorithm and the solutions for new inputs are given through a light-weighted fine tuning process
+- **Physics embedding**: Incorporates physical laws directly both on the offline and online stages
+
 
 ## Publications
 
