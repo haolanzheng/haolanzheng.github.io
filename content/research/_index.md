@@ -4,18 +4,9 @@ summary: My research interests and current projects
 date: 2025-10-06
 type: landing
 
-# Disable automatic widgets/collections that theme might inject
-cascade:
-  show_breadcrumb: false
-  show_date: false
-  show_author: false
-  show_related: false
-  show_tags: false
-
 # Note: `&` is a YAML anchor allowing you to reuse the `sections` value later with `*sections`
 sections: &sections
-  - block: markdown
-    id: research-interests
+  - block: collection
     content:
       title: Research Interests
       text: |
@@ -25,6 +16,7 @@ sections: &sections
         
     design:
       columns: '1'
+      view: compact
       spacing:
         padding: ['20px', '0', '20px', '0']
 
@@ -35,8 +27,6 @@ sections: &sections
       text: ""
       page_type: project
       count: 5
-      offset: 0
-      order: asc
       filters:
         folders:
           - project
@@ -48,7 +38,5 @@ sections: &sections
     design:
       columns: '2'
       view: card
-      spacing:
-        padding: ['20px', '0', '20px', '0']
 
 ---
