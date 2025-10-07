@@ -4,16 +4,19 @@ summary: My research interests and current projects
 date: 2025-10-06
 type: landing
 
-# Note: `&` is a YAML anchor allowing you to reuse the `sections` value later with `*sections`
-sections: &sections
-  - block: collection
+# turn off auto UI that can inject lists
+show_related: false
+backlinks: false
+share: false
+
+sections:
+  - block: markdown
     content:
       title: Research Interests
       text: |
         - **Scientific Machine Learning (SciML)**: Operator Learning and fast PDE solvers via deep learning models
         - **Deep Learning**
         - **Numerical Analysis**
-        
     design:
       columns: '1'
       view: compact
@@ -25,15 +28,11 @@ sections: &sections
     content:
       title: Recent Projects
       text: ""
-      page_type: project
+      page_type: project            # <- only projects
       count: 5
       filters:
-        folders:
-          - project
+        folders: ["project"]        # <- only from /content/project
         featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
         exclude_drafts: true
     design:
       columns: '2'
