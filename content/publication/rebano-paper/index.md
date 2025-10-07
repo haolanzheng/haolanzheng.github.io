@@ -14,7 +14,7 @@ doi: "10.48550/arXiv.2509.09611"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-10-06"
-
+share: false
 # Publication type.
 # Options: article-journal, article-conference, book, chapter, dataset, manuscript, 
 # paper-conference, patent, report, software, thesis, webpage
@@ -51,7 +51,7 @@ projects:
 
 
 # Featured publication
-featured: true
+featured: false
 
 # Slides (optional).
 slides: ""

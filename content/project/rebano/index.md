@@ -7,6 +7,7 @@ authors: ["Haolan Zheng", "Yanlai Chen", "Jiequn Han", "Yue Yu"]
 
 featured: false
 draft: false
+share: false
 
 # Featured image
 image:
