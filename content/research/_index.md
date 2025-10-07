@@ -1,7 +1,7 @@
 ---
 title: Research
 summary: My research interests and current projects
-date: 2024-10-06
+date: 2025-10-06
 type: landing
 
 # Note: `&` is a YAML anchor allowing you to reuse the `sections` value later with `*sections`

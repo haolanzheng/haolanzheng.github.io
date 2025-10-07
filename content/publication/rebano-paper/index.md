@@ -1,7 +1,7 @@
 ---
-title: "Reduced Basis Neural Operator (ReBaNO): Mitigating Generalization Gaps and Achieving Discretization Invariance"
+title: "Reduced Basis Neural Operator Mitigating Generalization Gaps and Achieving Discretization Invariance"
 authors:
-- admin
+- "Haolan Zheng"
 - "Yanlai Chen"
 - "Jiequn Han"
 - "Yue Yu"
@@ -46,7 +46,6 @@ links:
   url: "https://github.com/haolanzheng/rebano"
 
 url_pdf: 'uploads/rebano-paper.pdf'
-url_code: 'https://github.com/PredictiveIntelligenceLab/ReBaNO'
 url_dataset: ''
 url_poster: ''
 url_project: '/research/rebano/'
