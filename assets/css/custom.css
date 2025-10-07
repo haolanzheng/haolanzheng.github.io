@@ -127,3 +127,19 @@ footer [class*="social"] a[href*="twitter"] {
 [class*="social"] .fa-instagram {
   display: none !important;
 }
+
+/* Additional rules for detailed pages - publication and project pages */
+.page-body .share-buttons,
+.page-body .social-share,
+.page-footer .share-buttons,
+.page-footer .social-share,
+.article-footer .share-buttons,
+.article-footer .social-share {
+  display: none !important;
+}
+
+/* Ensure only professional social icons show on all pages */
+.social-network-link:not([href*="mailto"]):not([href*="github"]):not([href*="linkedin"]):not([href*="scholar"]),
+.btn-outline-primary:not([href*="mailto"]):not([href*="github"]):not([href*="linkedin"]):not([href*="scholar"]) {
+  display: none !important;
+}
