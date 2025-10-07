@@ -1,1 +1,21 @@
-/* Custom CSS - currently empty, add your custom styles here */
+/* Hide social sharing buttons */
+.share-buttons,
+.social-share,
+.sharing-buttons,
+.post-share,
+.article-share {
+  display: none !important;
+}
+
+/* Hide specific social media icons in footer */
+a[href*="facebook.com"],
+a[href*="twitter.com"],
+a[href*="x.com"] {
+  display: none !important;
+}
+
+/* Hide social icons in author profile - keep only professional ones */
+.social-icons .facebook,
+.social-icons .twitter {
+  display: none !important;
+}

@@ -13,7 +13,7 @@ date: "2025-09-11"
 doi: "10.48550/arXiv.2509.09611"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-09-11"
+publishDate: "2025-10-06"
 
 # Publication type.
 # Options: article-journal, article-conference, book, chapter, dataset, manuscript, 
@@ -29,14 +29,6 @@ abstract: |
 
 # Summary. An optional shortened abstract.
 summary: A novel data-lean operator learning algorithm that combines reduced basis methods with neural networks for physics-informed machine learning.
-
-tags:
-- Machine Learning
-- Neural Operators
-- Physics-Informed Neural Networks
-- Reduced Basis Method
-- Scientific Computing
-featured: true
 
 # Custom links (optional).
 links:
