@@ -20,3 +20,11 @@
 .page-publication .share {
   display: none !important;
 }
+
+/*
+  Hide any automatic sections that appear on the research page
+  Target sections that are not explicitly defined by us
+*/
+body[data-wc-page-type="landing"] .blox-container > section:not([id="research-interests"]):not([id="projects"]) {
+  display: none !important;
+}
