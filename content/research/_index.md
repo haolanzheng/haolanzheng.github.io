@@ -16,7 +16,7 @@ sections:
       text: |
         - **Scientific Machine Learning (SciML)**: Operator Learning and fast PDE solvers via deep learning models
         - **Deep Learning**
-        - **Numerical Analysis**
+        - **Numerical PDEs**
     design:
       columns: '1'
       view: compact

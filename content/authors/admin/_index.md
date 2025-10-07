@@ -36,13 +36,13 @@ profiles:
     url: https://www.linkedin.com/in/haolan-zheng-umassd/
     label: LinkedIn
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
+    url: https://scholar.google.com/citations?user=KUsEWAMAAAAJ&hl=en
     label: Google Scholar
 
 interests:
   - Scientific Machine Learning
   - Deep Learning
-  - Numerical Analysis
+  - Numerical PDEs
 
 education:
   - area: B.S. in Physics
