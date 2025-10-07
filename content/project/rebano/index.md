@@ -3,11 +3,7 @@ title: "Reduced Basis Neural Operator (ReBaNO)"
 date: 2025-10-06
 external_link: ""
 summary: "A reduced basis driven operator learning algorithm that achieves discretization invariance and mitigates generalization gaps."
-tags:
-  - Machine Learning
-  - Neural Operators
-  - PINNs
-featured: true
+
 
 # Featured image
 image:
@@ -17,7 +13,7 @@ image:
   preview_only: false
 
 # Links
-url_code: "https://github.com/haolanzheng/rebano"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
