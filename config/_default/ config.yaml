@@ -1,0 +1,11 @@
+cascade:
+  - _target:
+      path: /project/**
+    share: false
+  - _target:
+      path: /publication/**
+    share: false
+  # optional:
+  - _target:
+      path: /post/**
+    share: false
