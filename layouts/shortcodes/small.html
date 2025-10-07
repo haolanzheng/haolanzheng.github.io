@@ -1,0 +1,4 @@
+{{- $size := .Get 0 | default "0.9em" -}}
+<div style="font-size: {{ $size }};">
+{{ .Inner }}
+</div>

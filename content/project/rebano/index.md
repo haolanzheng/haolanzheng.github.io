@@ -5,9 +5,8 @@ external_link: ""
 summary: "A reduced basis driven operator learning algorithm that achieves discretization invariance and mitigates generalization gaps."
 tags:
   - Machine Learning
-  - Physics
   - Neural Operators
-  - Scientific Computing
+  - PINNs
 featured: true
 
 # Featured image
@@ -43,11 +42,3 @@ We propose a novel data-lean operator learning algorithm, the Reduced Basis Neur
 
 - [GitHub Repository](https://github.com/haolanzheng/rebano)
 - [arXiv Paper](https://doi.org/10.48550/arXiv.2509.09611)
-
-## Applications
-
-ReBaNO has been successfully applied to:
-- Darcy flow problems
-- Poisson equations  
-- Navier-Stokes equations
-- Heat conduction problems
