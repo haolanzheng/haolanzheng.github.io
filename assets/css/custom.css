@@ -143,3 +143,56 @@ footer [class*="social"] a[href*="twitter"] {
 .btn-outline-primary:not([href*="mailto"]):not([href*="github"]):not([href*="linkedin"]):not([href*="scholar"]) {
   display: none !important;
 }
+
+/* AGGRESSIVE: Hide ALL sharing buttons on individual content pages */
+.page-project .share,
+.page-project .sharing,
+.page-project [class*="share"],
+.page-publication .share,
+.page-publication .sharing,
+.page-publication [class*="share"],
+.single .share,
+.single .sharing,
+.single [class*="share"] {
+  display: none !important;
+}
+
+/* Hide specific Hugo Blox sharing elements */
+.btn[href*="mailto:"]:not(.social-icons .btn),
+.btn[href*="linkedin.com"]:not(.social-icons .btn),
+.btn[href*="whatsapp"]:not(.social-icons .btn),
+.btn[href*="facebook"]:not(.social-icons .btn),
+.btn[href*="twitter"]:not(.social-icons .btn) {
+  display: none !important;
+}
+
+/* Hide sharing buttons that appear at bottom of content */
+.article-metadata .share,
+.post-metadata .share,
+.content-footer .share,
+#sharing {
+  display: none !important;
+}
+
+/* Target specific sharing button patterns in Hugo Blox */
+a[href^="mailto:"]:not(.social-icons a):not([class*="author"]):not([class*="contact"]),
+a[href*="linkedin.com/sharing"]:not(.social-icons a),
+a[href*="whatsapp.com/send"]:not(.social-icons a),
+a[href*="facebook.com/sharer"]:not(.social-icons a),
+a[href*="twitter.com/intent"]:not(.social-icons a),
+.btn[href^="mailto:"]:not(.social-icons .btn):not([class*="contact"]),
+.btn[href*="linkedin.com/sharing"],
+.btn[href*="whatsapp.com/send"],
+.btn[href*="facebook.com/sharer"],
+.btn[href*="twitter.com/intent"] {
+  display: none !important;
+}
+
+/* Additional patterns for social sharing */
+[aria-label*="Share on"],
+[title*="Share on"],
+[data-social-share],
+.sharing-btn,
+.share-btn {
+  display: none !important;
+}

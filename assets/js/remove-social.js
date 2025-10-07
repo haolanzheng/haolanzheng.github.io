@@ -19,7 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
         '.social-btn',
         'a[href*="facebook.com/sharer"]',
         'a[href*="twitter.com/intent"]',
-        'a[href*="linkedin.com/sharing"]'
+        'a[href*="linkedin.com/sharing"]',
+        'a[href*="whatsapp.com/send"]',
+        'a[href^="mailto:"]:not(.social-icons a):not([class*="contact"])',
+        '.btn[href^="mailto:"]:not(.social-icons .btn):not([class*="contact"])',
+        '.btn[href*="linkedin.com/sharing"]',
+        '.btn[href*="whatsapp.com/send"]',
+        '[aria-label*="Share on"]',
+        '[title*="Share on"]',
+        '.sharing-btn',
+        '.share-btn'
     ];
     
     // Remove elements matching these selectors
