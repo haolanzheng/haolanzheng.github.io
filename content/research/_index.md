@@ -7,6 +7,7 @@ type: landing
 # Note: `&` is a YAML anchor allowing you to reuse the `sections` value later with `*sections`
 sections: &sections
   - block: collection
+    id: research-interests
     content:
       title: Research Interests
       text: |
