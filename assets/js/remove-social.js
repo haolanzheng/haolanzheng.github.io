@@ -1,34 +1,14 @@
 // Remove social sharing buttons after page loads
 document.addEventListener('DOMContentLoaded', function() {
-    // List of selectors for social sharing elements
+    // Simple list of social sharing selectors
     const socialSelectors = [
         '.share-buttons',
         '.social-share',
-        '.sharing-buttons',
-        '.post-share',
-        '.article-share',
         '.page-share',
-        '.blox-share',
+        '.article-share',
         '.hugo-blox-share',
-        '.share-facebook',
-        '.share-twitter',
-        '.share-x',
-        '.share-linkedin',
-        '[data-share]',
-        '.btn-social',
-        '.social-btn',
-        'a[href*="facebook.com/sharer"]',
-        'a[href*="twitter.com/intent"]',
-        'a[href*="linkedin.com/sharing"]',
-        'a[href*="whatsapp.com/send"]',
-        'a[href^="mailto:"]:not(.social-icons a):not([class*="contact"])',
-        '.btn[href^="mailto:"]:not(.social-icons .btn):not([class*="contact"])',
-        '.btn[href*="linkedin.com/sharing"]',
-        '.btn[href*="whatsapp.com/send"]',
-        '[aria-label*="Share on"]',
-        '[title*="Share on"]',
-        '.sharing-btn',
-        '.share-btn'
+        '.wg-share',
+        '#sharing'
     ];
     
     // Remove elements matching these selectors
