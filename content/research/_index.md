@@ -7,7 +7,6 @@ type: landing
 # Note: `&` is a YAML anchor allowing you to reuse the `sections` value later with `*sections`
 sections: &sections
   - block: collection
-    id: research-interests
     content:
       title: Research Interests
       text: |
@@ -31,6 +30,25 @@ sections: &sections
       filters:
         folders:
           - project
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        exclude_drafts: true
+    design:
+      columns: '2'
+      view: card
+
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      text: ""
+      page_type: publication
+      count: 5
+      filters:
+        folders:
+          - publication
         featured_only: false
         exclude_featured: false
         exclude_future: false
