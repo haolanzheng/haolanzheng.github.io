@@ -1,10 +1,12 @@
 ---
 title: "Reduced Basis Neural Operator (ReBaNO)"
-date: 2025-10-06
+date: 2025-10-01
 external_link: ""
 summary: "A reduced basis driven operator learning algorithm that achieves discretization invariance and mitigating generalization gaps."
+authors: ["Haolan Zheng", "Yanlai Chen", "Jiequn Han", "Yue Yu"]
 
 featured: false
+draft: false
 
 # Featured image
 image:
