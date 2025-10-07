@@ -21,22 +21,28 @@ sections: &sections
         padding: ['20px', '0', '20px', '0']
 
   - block: collection
-    id: publications
+    id: current-project
     content:
-      title: Recent Publications
-      text: ""
-      page_type: publication
-      count: 5
+      title: Current Project
+      page_type: project
+      count: 1
       filters:
         folders:
-          - publication
+          - project
         featured_only: true
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
         exclude_drafts: true
     design:
-      columns: '2'
-      view: card
+      columns: '1'
+      view: showcase
+      flip_alt_rows: false
+
+  - block: markdown
+    id: publications-link
+    content:
+      title: Publications
+      text: |
+        See the full list of my publications here: [View Publications »](/publication/)
+    design:
+      columns: '1'
 
 ---
