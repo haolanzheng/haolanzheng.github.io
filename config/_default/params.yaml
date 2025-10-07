@@ -59,13 +59,6 @@ features:
   privacy_pack:
     enable: false
 
-# Disable automatic widgets/collections
-widgets:
-  recent_posts: false
-  projects: false
-  publications: false
-  portfolio: false
-
 # Sharing options
 sharing:
   enable: false

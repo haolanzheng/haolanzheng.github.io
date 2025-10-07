@@ -1,0 +1,25 @@
+{{- define "main" -}}
+
+{{- $page := . -}}
+{{- $sections := $page.Params.sections -}}
+
+<div class="universal-wrapper">
+  {{- with $page.Content -}}
+  <div class="article-style">
+    {{ . }}
+  </div>
+  {{- end -}}
+
+  {{- range $sections -}}
+    {{- $block_type := .block | default "collection" -}}
+    {{- $block_id := .id | default "" -}}
+    
+    {{- if eq $block_type "collection" -}}
+      {{- partial "views/blocks/collection" (dict "root" $page "block" . "page" $page) -}}
+    {{- else if eq $block_type "markdown" -}}
+      {{- partial "views/blocks/markdown" (dict "root" $page "block" . "page" $page) -}}
+    {{- end -}}
+  {{- end -}}
+</div>
+
+{{- end -}}
