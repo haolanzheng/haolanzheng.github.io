@@ -12,12 +12,13 @@
 
   {{- range $sections -}}
     {{- $block_type := .block | default "collection" -}}
-    {{- $block_id := .id | default "" -}}
     
     {{- if eq $block_type "collection" -}}
-      {{- partial "views/blocks/collection" (dict "root" $page "block" . "page" $page) -}}
+      {{- partial "blocks/collection" (dict "root" $page "block" . "page" $page) -}}
     {{- else if eq $block_type "markdown" -}}
-      {{- partial "views/blocks/markdown" (dict "root" $page "block" . "page" $page) -}}
+      {{- partial "blocks/markdown" (dict "root" $page "block" . "page" $page) -}}
+    {{- else -}}
+      {{- partial (printf "blocks/%s" $block_type) (dict "root" $page "block" . "page" $page) -}}
     {{- end -}}
   {{- end -}}
 </div>
