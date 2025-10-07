@@ -20,24 +20,27 @@ sections: &sections
       spacing:
         padding: ['20px', '0', '20px', '0']
 
-  - block: markdown
+  - block: collection
+    id: projects
     content:
       title: Current Projects
-      text: |
-        ## ReBaNO: Reduced Basis Neural Operator
-        
-        A novel data-lean operator learning algorithm that combines reduced basis methods with neural operators for physics-informed machine learning.
-        
-        **Key Features:**
-        - Achieves strict discretization invariance
-        - Mitigates generalization gaps  
-        - Data-efficient approach
-        - Physics-embedded architecture
-        
-        **Resources:** [GitHub](https://github.com/haolanzheng/rebano) | [arXiv](https://doi.org/10.48550/arXiv.2509.09611) | [Project Details](/project/rebano/)
-        
+      subtitle: ''
+      text: ''
+      page_type: project
+      count: 1
+      filters:
+        folders:
+          - project
+        featured_only: true
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        exclude_drafts: true
+      
     design:
-      columns: '1'
+      columns: '2'
+      view: showcase
+      flip_alt_rows: false
 
   - block: collection
     id: publications

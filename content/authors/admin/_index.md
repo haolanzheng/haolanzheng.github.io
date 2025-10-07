@@ -31,10 +31,13 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/haolanzheng
+    label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/haolan-zheng-umassd/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
+    label: LinkedIn
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
+    label: Google Scholar
 
 interests:
   - Scientific Machine Learning

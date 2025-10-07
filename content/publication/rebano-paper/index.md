@@ -46,7 +46,18 @@ url_source: ''
 url_video: ''
 
 # Associated Projects (optional).
+projects:
+- rebano
 
+# Tags
+tags:
+- Machine Learning
+- Neural Operators
+- Physics-Informed Neural Networks
+- Scientific Computing
+
+# Featured publication
+featured: true
 
 # Slides (optional).
 slides: ""

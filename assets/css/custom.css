@@ -95,7 +95,35 @@ footer [class*="social"] a[href*="twitter"] {
   display: none !important;
 }
 
-/* Keep only professional social links (email, github, linkedin, scholar) */
-.social-icons a:not([href*="mailto"]):not([href*="github"]):not([href*="linkedin"]):not([href*="scholar"]):not([href*="orcid"]):not([href*="researchgate"]) {
+/* Hide ALL social icons except the ones we want */
+.social-icons a,
+.author-social a,
+.profile-social a {
+  display: none !important;
+}
+
+/* Only show professional social links */
+.social-icons a[href*="mailto"],
+.social-icons a[href*="github"],
+.social-icons a[href*="linkedin"],
+.social-icons a[href*="scholar"],
+.author-social a[href*="mailto"],
+.author-social a[href*="github"],
+.author-social a[href*="linkedin"],
+.author-social a[href*="scholar"],
+.profile-social a[href*="mailto"],
+.profile-social a[href*="github"],
+.profile-social a[href*="linkedin"],
+.profile-social a[href*="scholar"] {
+  display: inline-block !important;
+}
+
+/* Hide any icons that might be from theme defaults */
+[class*="social"] i.fa-facebook,
+[class*="social"] i.fa-twitter,
+[class*="social"] i.fa-instagram,
+[class*="social"] .fa-facebook,
+[class*="social"] .fa-twitter,
+[class*="social"] .fa-instagram {
   display: none !important;
 }
