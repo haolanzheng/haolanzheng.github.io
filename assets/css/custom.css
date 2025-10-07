@@ -1,26 +1,9 @@
-/* Minimal suppression of share icons at bottom of pages */
-/* Scope to single content pages to avoid touching header/profile icons */
-
-.single .share, 
-.single .share-buttons,
-.single .article-share,
-.single .page-share,
-.single [class*="share-buttons"],
-.page-project .share-buttons,
-.page-publication .share-buttons,
-.page-project .article-share,
-.page-publication .article-share,
-.page-project [class*="share"],
-.page-publication [class*="share"],
-.content .share-buttons,
-.content .article-share,
-.content .page-share {
+/*
+  Hide the social sharing buttons at the bottom of project and publication pages.
+  This is scoped to the main content area to avoid affecting the author profile icons on the homepage.
+*/
+.article-container .article-share,
+.page-footer .share-buttons,
+.article-footer .share-buttons {
   display: none !important;
-}
-
-/* Avoid hiding normal inline links or profile/social icons */
-.profile .social-icons a,
-.author .social-icons a,
-.author-card .social-icons a {
-  display: inline-flex !important;
 }

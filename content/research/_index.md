@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: My research interests and recent publications
+summary: My research interests and current projects
 date: 2025-10-06
 type: landing
 
@@ -21,28 +21,22 @@ sections: &sections
         padding: ['20px', '0', '20px', '0']
 
   - block: collection
-    id: current-project
+    id: publications
     content:
-      title: Current Project
-      page_type: project
-      count: 1
+      title: Recent Publications
+      text: ""
+      page_type: publication
+      count: 5
       filters:
         folders:
-          - project
+          - publication
         featured_only: true
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
         exclude_drafts: true
     design:
-      columns: '1'
-      view: showcase
-      flip_alt_rows: false
-
-  - block: markdown
-    id: publications-link
-    content:
-      title: Publications
-      text: |
-        See the full list of my publications here: [View Publications »](/publication/)
-    design:
-      columns: '1'
+      columns: '2'
+      view: card
 
 ---
