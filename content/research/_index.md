@@ -10,8 +10,6 @@ sections: &sections
     content:
       title: Research Interests
       text: |
-        My research focuses on:
-        
         - **Scientific Machine Learning (SciML)**: Operator Learning and fast PDE solvers via deep learning models
         - **Deep Learning**
         - **Numerical Analysis**
@@ -22,24 +20,24 @@ sections: &sections
       spacing:
         padding: ['20px', '0', '20px', '0']
 
-  - block: collection
-    id: projects
+  - block: markdown
     content:
       title: Current Projects
-      subtitle: ''
-      text: ''
-      page_type: project
-      filters:
-        folders:
-          - project
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-      
+      text: |
+        ## ReBaNO: Reduced Basis Neural Operator
+        
+        A novel data-lean operator learning algorithm that combines reduced basis methods with neural operators for physics-informed machine learning.
+        
+        **Key Features:**
+        - Achieves strict discretization invariance
+        - Mitigates generalization gaps  
+        - Data-efficient approach
+        - Physics-embedded architecture
+        
+        **Resources:** [GitHub](https://github.com/haolanzheng/rebano) | [arXiv](https://doi.org/10.48550/arXiv.2509.09611) | [Project Details](/project/rebano/)
+        
     design:
-      columns: '2'
-      view: showcase
-      flip_alt_rows: false
+      columns: '1'
 
   - block: collection
     id: publications

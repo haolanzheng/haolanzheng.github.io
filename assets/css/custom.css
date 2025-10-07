@@ -55,3 +55,47 @@ footer [class*="social"] a[href*="facebook"],
 footer [class*="social"] a[href*="twitter"] {
   display: none !important;
 }
+
+/* Hugo Blox specific social sharing elements */
+.hugo-blox-share,
+.blox-page-share,
+.page-header .share,
+.article-header .share,
+.docs-share,
+.wg-share {
+  display: none !important;
+}
+
+/* Hide specific social platform sharing buttons */
+.share-facebook,
+.share-twitter,
+.share-x,
+.share-linkedin,
+.share-reddit,
+.share-whatsapp,
+[data-share="facebook"],
+[data-share="twitter"],
+[data-share="x"],
+[data-share="linkedin"] {
+  display: none !important;
+}
+
+/* Hide social icons in page headers and content */
+.page-header .social,
+.article-style .social,
+.content .social-share,
+.main-content .share-buttons {
+  display: none !important;
+}
+
+/* More aggressive hiding for Hugo Academic theme */
+.btn-social,
+.social-btn,
+[class*="social-"]:not(.social-icons):not([class*="professional"]) {
+  display: none !important;
+}
+
+/* Keep only professional social links (email, github, linkedin, scholar) */
+.social-icons a:not([href*="mailto"]):not([href*="github"]):not([href*="linkedin"]):not([href*="scholar"]):not([href*="orcid"]):not([href*="researchgate"]) {
+  display: none !important;
+}

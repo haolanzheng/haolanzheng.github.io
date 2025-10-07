@@ -61,9 +61,14 @@ features:
 
 # Sharing options
 sharing:
+  enable: false
   twitter: false
   facebook: false
   linkedin: false
   reddit: false
   weibo: false
-  email: true
+  email: false
+
+# Disable social sharing on all content types
+page_sharer: false
+show_social_sharing: false
